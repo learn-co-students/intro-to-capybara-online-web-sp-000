@@ -1,1 +1,13 @@
-<%# Write your code here! %>
+#Our ERB file at views/index.erb (Sinatra will automatically look for the .erb extension when you call erb in the controller) contains the necessary HTML to make our test pass.
+#building an HTML form that, when submitted, will create an HTTP POST request to /greet. The POST request will contain whatever the user typed into the form's <input> field, which is nested within the form and has a name value of user_name, matching our Capybara test expectation.
+
+<h1>Welcome!</h1>
+
+<form action="/greet" method="POST">
+  <label for="user_name">Name:</label>
+ 
+  <p><input type="text" name="user_name" id="user_name" /></p>
+ 
+  <input type="submit" value="Submit"/>
+</form>
+
