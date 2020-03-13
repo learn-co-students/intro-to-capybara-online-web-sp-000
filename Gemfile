@@ -8,3 +8,5 @@ gem 'rspec'
 gem 'capybara'
 
 gem 'learn-co'
+
+gem 'standardrb'
