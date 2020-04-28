@@ -5,7 +5,7 @@ require 'capybara/dsl'
 
 # Configure RSpec
 RSpec.configure do |config|
-  # Mixin the Capybara functionality into Rspec
+  # Mix in the Capybara functionality into Rspec
   config.include Capybara::DSL
   config.order = 'default'
 end
