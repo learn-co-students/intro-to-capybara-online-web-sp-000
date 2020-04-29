@@ -1,1 +1,15 @@
 <%# Write your code here! %>
+<style>
+    #user_name {
+        width: 300px;
+        border: blue solid;
+    }
+</style>
+
+<h1>Welcome!</h1>
+
+<form action="/greet" method="POST">
+    <label for="user_name">Name</label>
+    <input type="text" name="user_name" id="user_name"/>
+    <p><input type="submit" value="Submit"/></p>
+</form>
