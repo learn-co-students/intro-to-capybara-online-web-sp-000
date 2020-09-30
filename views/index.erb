@@ -1,1 +1,10 @@
 <%# Write your code here! %>
+<h1>Welcome!</h1>
+
+<% #this will send the form thru an http request POST '/greet' and the corresponding route will return with an http response%>
+
+<form action="/greet" method="POST">
+<label for="user_name">Name:</label>
+<input type="text" name="user_name" id="user_name" >
+<input type="submit" value="Submit">
+</form>
